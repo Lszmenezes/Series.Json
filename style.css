@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #090909;
+    text-align: center;
+}
+
+.controles {
+    margin: 15px 0;
+}
+.generos {
+    margin: 15px 0;
+}
+
+button {
+    padding: 8px;
+    margin: 4px;
+}
+
+
+#listaSeries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    width: 200px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px white (0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+#estatisticas {
+    margin-top: 30px;
+}
